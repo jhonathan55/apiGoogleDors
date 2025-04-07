@@ -1,0 +1,10 @@
+
+services:
+  main-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: main-container
+    env_file:
+      - .env
+
